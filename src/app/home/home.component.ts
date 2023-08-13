@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HousingLocation } from "../interfacecs/housinglocation"
+import { HousingLocation } from "../interfaces/housinglocation"
 
 
 @Component({

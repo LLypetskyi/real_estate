@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { HousingLocation } from '../interfacecs/housinglocation';
+import { HousingLocation } from '../interfaces/housinglocation';
 
 @Component({
   selector: 'app-housing-location',
