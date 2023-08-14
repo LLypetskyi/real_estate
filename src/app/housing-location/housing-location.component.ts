@@ -14,7 +14,4 @@ export class HousingLocationComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-
-
 }
