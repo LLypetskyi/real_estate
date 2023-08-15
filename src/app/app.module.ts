@@ -8,6 +8,7 @@ import { HousingLocationComponent } from './housing-location/housing-location.co
 import { HousingService } from './services/housing.service';
 import { CommonModule } from '@angular/common';
 import { DetailsComponent } from './details/details.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { DetailsComponent } from './details/details.component';
   imports: [
     CommonModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [HousingService,
   ],
